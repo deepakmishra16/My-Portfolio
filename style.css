@@ -1,0 +1,295 @@
+body {
+    background-color: #27282b;
+}
+
+.image-container {
+    background-color: #3c3d42;
+    border-radius: 30px;
+    height: 600px;
+    width: 1100px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    color: rgb(199, 219, 255);
+    font-size: 79px;
+}
+
+.name {
+    margin-top: -100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.profession {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: -30px;
+}
+
+#profession {
+    color: ghostwhite;
+    font-size: 25px;
+}
+
+.intro {
+    width: 1100px;
+    background-color: rgb(69, 66, 66);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 7px;
+}
+
+.intro1 {
+    width: 550px;
+    display: flex;
+    padding: 15px 15px 15px 15px;
+}
+#intro1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.intro2 {
+    width: 550px;
+}
+#intro2 {
+    color: whitesmoke;
+}
+
+
+.skills-have {
+    width: 1100px;
+    background-color: rgb(69, 66, 66);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    display: flex;
+    border-radius: 7px;
+}
+
+.skills-have1 {
+    width: 550px;
+    display: flex;
+    padding: 15px;
+}
+#skills-have1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-have2 {
+    width: 550px;
+}
+#skills-have2 {
+    color: whitesmoke;
+}
+
+.skills-have-2 {
+    background-color: #27282b;
+    width: 400px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: whitesmoke;
+    padding: auto;
+    margin: 10px auto 10px 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.skills-have2 :hover {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.skills-have-2 p {
+    margin-left: 50px;
+}
+
+
+.completed-projects {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.completed-projects h1 {
+    font-size: 60px;
+    color: cornflowerblue;
+    text-decoration: underline;
+
+}
+
+.completed-projects h3 {
+    font-size: 40px;
+    color: gainsboro;
+}
+
+.completed-projects p {
+    font-size: 30px;
+    color: azure;
+}
+
+.ongoing-projects {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.ongoing-projects h1 {
+    font-size: 60px;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.ongoing-projects h3 {
+    font-size: 40px;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.ongoing-projects a {
+    text-decoration: none;
+}
+
+.temple-odyssey {
+    display: flex;
+    align-items: center;
+}
+
+.temple-odyssey img {
+    height: 350px;
+    width: 601px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ---------------------------------- TEMPLE ODYSSEY PAGE ---------------------------------- */
+
+
+.temple-odyssey-container {
+    background-color: #3c3d42;
+    border-radius: 30px;
+    height: 700px;
+    width: 1200px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.temple-odyssey-container p {
+    font-size: 30px;
+    color: azure;
+}
+
+.temple-odyssey-container ul {
+    margin-top: 150px;
+}
+
+.temple-odyssey-container ul h3 {
+    font-size: 45px;
+    color: cornsilk;
+}
+
+.temple-odyssey-container ul li {
+    font-size: 25px;
+    color: azure;
+}
+
+#temple-odyssey-key-features {
+    text-align: left;
+    background-color: rgb(69, 66, 66);
+    height: 900px;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding-top: 0px;
+}
+
+#temple-odyssey-key-features ul h3 {
+    margin-top: 40px;
+}
+
+#temple-odyssey-key-features h3 {
+    font-size: 45px;
+    margin-left: 40px;
+    color: cornsilk ;
+}
+
+.temple-odyssey-design-mockups {
+    margin-top: 200px;
+    margin-bottom: 180px;
+    padding-top: 40px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(69, 66, 66);
+}
+
+.temple-odyssey-design-mockups h3 {
+    font-size: 45px;
+    color: cornsilk;
+}
+
+#temple-odyssey-design-mockups {
+    display: flex;
+    align-items: center;
+    background-color: rgb(69, 66, 66);
+}
+
+#temple-odyssey-design-mockups img {
+    height: 350px;
+    width: 590px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temple-odyssey-development-tools {
+    background-color: rgb(69, 66, 66);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+.temple-odyssey-development-tools h3 {
+    font-size: 45px;
+    color: cornsilk;
+}
+
+#temple-odyssey-development-tools {
+    text-align: left;
+}
+
+#temple-odyssey-development-tools h5{
+    font-size: 30px;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+#temple-odyssey-key-features p {
+    margin-left: 10px;
+}
+
+
+/* --------------------------------- ELEMENTS TIE PAGE ---------------------------------- */
+
+
